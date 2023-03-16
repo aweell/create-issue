@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es6", "DOM"],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "noImplicitReturns": true,
+    "jsx": "react",
+    "strict": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "typeRoots": [
+    "src/customTypings",
+    "node_modules/@types"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
